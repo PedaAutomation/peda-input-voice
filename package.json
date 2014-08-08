@@ -2,6 +2,7 @@
   "name": "peda-input-voice",
   "description": "Voice Recognition module for Peda",
   "version": "0.0.1",
+  "main": "index.js",
   "author": {
       "name": "Julius Möller",
       "email": "the.porenta@web.de"
