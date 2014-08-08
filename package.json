@@ -1,0 +1,13 @@
+{
+  "name": "peda-input-voice",
+  "description": "Voice Recognition module for Peda",
+  "version": "0.0.1",
+  "author": {
+      "name": "Julius Möller",
+      "email": "the.porenta@web.de"
+  },
+  "dependencies": {
+      "node-speakable": "Jamil/node-speakable"
+  }
+
+}
