@@ -7,7 +7,7 @@
       "email": "the.porenta@web.de"
   },
   "dependencies": {
-      "node-speakable": "Jamil/node-speakable",
+      "node-speakable": "PedaAutomation/node-speakable",
       "coffee-script": "1.7.1"
   }
 
