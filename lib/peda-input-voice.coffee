@@ -28,3 +28,8 @@ speakable.on 'speechResult', (recognizedWords) ->
 
 
 speakable.recordVoice()
+
+module.exports = (helper) ->
+  helper.setType "input"
+  helper.setName "voice"
+  # call helper.sendInput(string) when an input thing should get send
