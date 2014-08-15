@@ -2,8 +2,6 @@ Speakable = require "speakable"
 apiKey = "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
 language = "de-DE"
 
-speakable.recordVoice()
-
 module.exports = (helper) ->
   helper.setType "input"
   helper.setName "voice"
