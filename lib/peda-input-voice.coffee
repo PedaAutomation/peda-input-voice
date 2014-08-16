@@ -12,7 +12,7 @@ module.exports = (helper) ->
 
   speakable = new Speakable {key: apiKey}, {lang: helper.getLanguage()}
 
-  speakable.on 'error', ->
+  speakable.on 'error', (err) ->
     console.log 'speakable error:'
     console.log err
 
