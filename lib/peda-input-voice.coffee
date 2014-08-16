@@ -18,7 +18,8 @@ module.exports = (helper) ->
 
   speakable.on 'speechResult', (recognizedWords) ->
     console.log 'onSpeechResult:'
-    helper.sendInput(recognizedWords)
+    if(recognizedWords)
+      helper.sendInput(recognizedWords.join(" "))
 
   detector.on 'hotword', ->
     helper.sendOutput("Yo.")
