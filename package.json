@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "main": "index.js",
   "author": {
-      "name": "Julius Möller",
-      "email": "the.porenta@web.de"
+    "name": "Julius Möller",
+    "email": "the.porenta@web.de"
   },
   "dependencies": {
-      "node-speakable": "PedaAutomation/node-speakable",
-      "coffee-script": "1.7.1"
+    "node-speakable": "PedaAutomation/node-speakable",
+    "coffee-script": "1.7.1",
+    "okay-peda-detector": "git://github.com/PedaAutomation/node-okay-peda-detector"
   }
-
 }
