@@ -10,7 +10,7 @@ module.exports = (helper) ->
 
   detector = new OkayPedaDetector()
 
-  speakable = new Speakable {key: apiKey}, {lang: helper.getLanguage()}
+  speakable = new Speakable {key: apiKey}, {lang: language} #TODO: use the lang with country codes here
 
   speakable.on 'error', (err) ->
     console.log 'speakable error:'
